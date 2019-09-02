@@ -1,15 +1,15 @@
 <html>
-<head><title>First JSP</title></head>
+<head><title>Is it Considered a Bonus?</title></head>
 <body>
   <%
     double num = Math.random();
-    if (num > 0.80) {
+    if (num > 0.1) {
   %>
-      <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
+      <h2>Amiel and Adam deserve a Bonus!!!!</h2><p>(<%= num %>)</p>
   <%
     } else {
   %>
-      <h2>No luck for you today.</h2><p>(<%= num %>)</p>
+      <h2>Amiel and Adam deserver a bonus, try again!!</h2><p>(<%= num %>)</p>
   <%
     }
   %>
