@@ -5,7 +5,7 @@
     double num = Math.random();
     if (num > 0.2) {
   %>
-      <h2>Amiel and Adam deserve a Bonus$$$!!!!!!!!!!!!!</h2><p>(<%= num %>)</p>
+      <h2>Amiel and Adam deserve a Bonus$$$!!!!!!!!!!!!!!!!!!</h2><p>(<%= num %>)</p>
   <%
     } else {
   %>
